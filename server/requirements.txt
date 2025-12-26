@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+
+
+ServerModule1 @ git@github.com:meetprajapati20/ServerModule1.git
+ServerModule2 @ git@github.com:meetprajapati20/ServerModule2.git
