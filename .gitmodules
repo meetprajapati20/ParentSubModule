@@ -1,0 +1,6 @@
+[submodule "server/ServerModule1"]
+	path = server/ServerModule1
+	url = https://github.com/meetprajapati20/ServerModule1.git
+[submodule "server/ServerModule2"]
+	path = server/ServerModule2
+	url = https://github.com/meetprajapati20/ServerModule1.git
