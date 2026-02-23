@@ -7,12 +7,14 @@ git pull origin main
 
 echo "==============================================================="
 echo "🔄 Updating backend submodules..."
+echo "==============================================================="
 
 git submodule update --init --recursive --remote
-
+echo "✅ Updated backend submodules"
 
 echo "==============================================================="
 echo "📝 Saving new release state to Git..."
+echo "==============================================================="
 
 if ! git diff-index --quiet HEAD; then
     git add .
@@ -24,3 +26,4 @@ fi
 
 echo "==============================================================="
 echo "✅ Server shell updated in CodeCommit."
+echo "==============================================================="
